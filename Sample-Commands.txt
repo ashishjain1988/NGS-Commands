@@ -1,0 +1,39 @@
+Freebayes Command
+freebayes -f ucsc.hg19.fasta --min-alternate-fraction 0.01 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed CGI41_S15.bam -v result.vcf
+
+Picard Command
+java -jar picard-tools-1.136/picard.jar --help
+java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed >stats.txt
+
+java -jar picard.jar CollectAlignmentMetrics R=reference.fasta I=input.bam O=output.txt VALIDATION_STRINGENCY=SILENT
+
+java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-level.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta PER_TARGET_COVERAGE=../KK37_S2_Renal/hs-metrics-pertarget-coverage.txt
+
+java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta
+
+java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/MarkDuplicates-output.bam M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=SILENT
+
+cat result_CGI31.vcf |vcf-annotate -f +/-a/c=3,10/q=3/d=20/-D > out.vcf
+
+
+
+NGS BWA Pipeline:
+bwa index dmel-all-chromosome-r5.37.fasta
+bwa aln -t 2 dmel-all-chromosome-r5.37.fasta /data/drosophila/RAL357_1.fastq > RAL357_1.sai
+bwa aln -t 2 dmel-all-chromosome-r5.37.fasta /data/drosophila/RAL357_2.fastq > RAL357_2.sai
+bwa sampe dmel-all-chromosome-r5.37.fasta RAL357_1.sai RAL357_2.sai /data/drosophila/RAL357_1.fastq /data/drosophila/RAL357_2.fastq > RAL357_bwa.sam
+samtools view -b -S -o alignments/sim_reads_aligned.bam alignments/sim_reads_aligned.sam
+samtools sort alignments/sim_reads_aligned.bam alignments/sim_reads_aligned.sorted
+samtools index alignments/sim_reads_aligned.sorted.bam
+
+ls /media/cgi-ngs/Research_NGS/RCC_RD_ngs/150506_M03554_0032_000000000-AFJPT/Data/Intensities/BaseCalls/A*R1*gz > R1.txt
+ls /media/cgi-ngs/Research_NGS/RCC_RD_ngs/150506_M03554_0032_000000000-AFJPT/Data/Intensities/BaseCalls/A*R2*gz > R2.txt
+awk -F'Calls/' '{print $2} ' R1.txt | awk -F'_' '{print $1}' > samples.txt
+paste samples.txt R1.txt R2.txt
+paste samples.txt R1.txt R2.txt > samples_input.txt
+cat samples_input.txt
+
+192.168.1.89
+
+
+
