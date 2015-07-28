@@ -130,10 +130,6 @@ do
 		exeCmd="java -jar $customconvertorjar/vcf-info-parser.jar vcfFile=$sampleName/$sampleName.bwaln.sorted.baq.rdp.fb.targets.filter.annot.vcf txtFile=$sampleName/$sampleName.bwaln.sorted.baq.rdp.fb.targets.filter.annot1.tsv resultFileName=$sampleName/$sampleName.bwaln.sorted.baq.rdp.fb.targets.filter.annot.fields.tsv"
 		echo $exeCmd
 		eval $exeCmd
-		
-		exeCmd="rm ./result.txt"
-		echo $exeCmd
-		eval $exeCmd
 
 		exeCmd="rm ./snpEff_genes.txt"
 		echo $exeCmd
