@@ -29,9 +29,7 @@ samtools index alignments/sim_reads_aligned.sorted.bam
 ls /media/cgi-ngs/Research_NGS/RCC_RD_ngs/150506_M03554_0032_000000000-AFJPT/Data/Intensities/BaseCalls/A*R1*gz > R1.txt
 ls /media/cgi-ngs/Research_NGS/RCC_RD_ngs/150506_M03554_0032_000000000-AFJPT/Data/Intensities/BaseCalls/A*R2*gz > R2.txt
 awk -F'Calls/' '{print $2} ' R1.txt | awk -F'_' '{print $1}' > samples.txt
-paste samples.txt R1.txt R2.txt
 paste samples.txt R1.txt R2.txt > samples_input.txt
-cat samples_input.txt
 
 192.168.1.89
 
