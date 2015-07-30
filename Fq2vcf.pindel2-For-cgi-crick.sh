@@ -131,6 +131,10 @@ do
 		echo $exeCmd
 		eval $exeCmd
 
+		exeCmd="rm $sampleName/$sampleName.bwaln.sorted.baq.rdp.fb.targets.filter.annot1.tsv"
+		echo $exeCmd
+		eval $exeCmd
+
 		exeCmd="rm ./snpEff_genes.txt"
 		echo $exeCmd
 		eval $exeCmd
