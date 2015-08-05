@@ -1,0 +1,1000 @@
+  995  CGIX_30Jun/
+  996  cd CGIX_30Jun/
+  997  ls 
+  998  cd Clinical_2015_CGI_Rutherford/
+  999  ls -l
+ 1000  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1001  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1002  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1003  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1004  cd ..
+ 1005  cd Gilead118K_2015_CGI_Rutherford/
+ 1006  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1007  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1008  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1009  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1010  cd ..
+ 1011  cd Gilead_2015_CGI_Rutherford/
+ 1012  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1013  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1014  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1015  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1016  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1017  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1018  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1019  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1020  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1021  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1022  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1023  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1024  cd ..
+ 1025  cd Gilead118K_2015_CGI_Rutherford/
+ 1026  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1027  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1028  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1029  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1030  cd ../Clinical_2015_CGI_Rutherford/
+ 1031  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1032  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1033  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1034  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1035  cd ../../../apache-tomcat-8.0.22/conf/
+ 1036  vim context.xml
+ 1037  cd ../bin/
+ 1038  ./catalina.sh stop
+ 1039  ./catalina.sh run
+ 1040  ./catalina.sh start
+ 1041  ./catalina.sh stop
+ 1042  ./catalina.sh run
+ 1043  history
+ 1044  mysql --user=root --password=root
+ 1045  cd Downloads/apache-tomcat-8.0.22/
+ 1046  ls -l
+ 1047  cd ..
+ 1048  ls -l
+ 1049  vim ~/.bashrc 
+ 1050  ls
+ 1051  cd cbioportal_sql_files/
+ 1052  ls -l
+ 1053  cd Downloads/ensembl-tools-release-80/scripts/variant_effect_predictor/
+ 1054  vim /home/ashish/.vep/
+ 1055  cd /home/ashish/.vep/
+ 1056  ls-l
+ 1057  ls -l
+ 1058  mkdir Plugins
+ 1059  cd Plugins/
+ 1060  vim dbNSFP.pm
+ 1061  cd Downloads/cbioportal-stable
+ 1062  mvn clean install -DskipTests
+ 1063  cd Downloads/apache-tomcat-8.0.22/bin/
+ 1064  ./catalina.sh start 
+ 1065  history
+ 1066  sudo mount -t cifs //192.168.1.5/Rutherford /media/cgix-ngs/ -o username=ajain,domain=cgi,uid=ashish,sec=ntlm,file_mode=0755,dir_mode=0755
+ 1067  whereis .m2
+ 1068  whereis m2
+ 1069  whereis cbioportal-stable
+ 1070  find ~/ -type f -name .m2
+ 1071  find ~/ -type d -name .m2
+ 1072  find / -type d -name tomcat
+ 1073  find ~/ -type d -name tomcat
+ 1074  find ~/ -type d -name Downloads
+ 1075  find ~/ -type d -name downloads
+ 1076  locate .m2
+ 1077  echo $PORTAL_HOME
+ 1078  ./catalina.sh stop
+ 1079  ./catalina.sh start
+ 1080  ./catalina.sh stop
+ 1081  ./catalina.sh run
+ 1082  ./catalina.sh stop
+ 1083  ./catalina.sh run
+ 1084  ./catalina.sh start
+ 1085  whereis vep
+ 1086  whereis variant
+ 1087  ssh ashish@NGWs
+ 1088  ssh ashish@NGSWs
+ 1089  ssh ashish@192.168.1.64
+ 1090  Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1091  git remote add origin https://github.com/ashishjain1988/CGI-Code.git
+ 1092  cd Documents/workspace-sts-3.6.4.RELEASE/CGIX-New/
+ 1093  git init
+ 1094  git commit -m "Pushing Code"
+ 1095  git remote add origin git@github.com:ashishjain1988/CGI-Code.git
+ 1096  git push -u origin master
+ 1097  git commit -m "Pushing Code"
+ 1098  git config --global user.email "jain.ashishjain1@gmail.com"
+ 1099  git config --global user.name "Ashish Jain"
+ 1100  git commit -m "Pushing Code"
+ 1101  git remote add origin git@github.com:ashishjain1988/CGI-Code.git
+ 1102  git push -u origin master
+ 1103  git remote add origin git@github.com:ashishjain1988/CGI-Code.git
+ 1104  git push -u origin master
+ 1105  git stats
+ 1106  git status
+ 1107  git add src/
+ 1108  git git commit -m "first commit"
+ 1109  git commit -m "first commit"
+ 1110  git add .classpath 
+ 1111  git add .project 
+ 1112  git add .settings/
+ 1113   
+ 1114  git git commit -m "first commit"
+ 1115  git commit -m "first commit"
+ 1116  git push -u origin master
+ 1117  git status
+ 1118  git remote add origin git@github.com:ashishjain1988/CGI-Code.git
+ 1119  git remote -v
+ 1120  git push
+ 1121  git config --global push.default matching
+ 1122  git push
+ 1123  python
+ 1124  which python
+ 1125  cd Downloads/
+ 1126  ls -l
+ 1127  cd Converted\ Files/
+ 1128  ls
+ 1129  cd CGIX_15Jul/
+ 1130  ls
+ 1131  cp -r ./ /media/cgix-ngs/bioinfo/ashish/cbioportal-files/
+ 1132  cd ../..
+ 1133  cd apache-tomcat-8.0.22/lib/
+ 1134  ls
+ 1135  cp mysql-connector-java-commercial-5.1.35-bin.jar /media/cgix-ngs/bioinfo/ashish/
+ 1136  ssh sidk@ngsws
+ 1137  ssh sidk@192.168.1.67
+ 1138  ssh sidk@NGSWS
+ 1139  ssh NGSWS
+ 1140  history
+ 1141  history | grep ssh
+ 1142  ssh sidk@192.168.1.64
+ 1143  ssh 192.168.1.64
+ 1144  cd ../..
+ 1145  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1146  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1147  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1148  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start\
+ 1149  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1150  cd Documents/workspace-sts-3.6.4.RELEASE/CGIX-New/cbioportal/Clinical_2015_CGI_Rutherford/
+ 1151  ls
+ 1152  cd cll/
+ 1153  ls
+ 1154  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1155  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1156  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1157  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1158  cd ..
+ 1159  cd ../../..
+ 1160  cd CGIX-New/cbioportal/CT01GS_2015_CGI_Rutherford/cll/
+ 1161  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1162  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1163  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1164  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1165  cd ../../..
+ 1166  cd cbioportal/CT02GS_2015_CGI_Rutherford/cll/
+ 1167  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1168  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1169  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1170  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1171  cd ../../../..
+ 1172  cd ../..
+ 1173  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1174  vim ./Downloads/apache-tomcat-8.0.22/conf/context.xml
+ 1175  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1176  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1177  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1178  cd Documents/workspace-sts-3.6.4.RELEASE/CGIX-New/cbioportal/CT01GS_2015_CGI_Rutherford/cll/
+ 1179  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1180  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1181  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1182  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1183  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1184  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1185  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1186  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1187  cd ../../
+ 1188  cd CT02GS_2015_CGI_Rutherford/cll/
+ 1189  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1190  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1191  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1192  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1193  cd ../..
+ 1194  cd Clinical_2015_CGI_Rutherford/cll/
+ 1195  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1196  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1197  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1198  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1199  cd /home/ashish/Downloads/apache-tomcat-8.0.22/bin/
+ 1200  ./catalina.sh start
+ 1201  ./catalina.sh stop
+ 1202  ./catalina.sh start
+ 1203  cd ../../cbioportal-stable/
+ 1204  mvn clean install -DskipTests
+ 1205  cd ../../..
+ 1206  cd ~
+ 1207  ls -l
+ 1208  pwd
+ 1209  cd Downloads/cbioportal_sql_files/
+ 1210  pwd
+ 1211  cd ../cbioportal-stable
+ 1212  mvn clean install -DskipTests
+ 1213  cd portal/src/main/webapp/WEB-INF/
+ 1214  git add web.xml 
+ 1215  git add -f web.xml 
+ 1216  git commit -m "Adding web.xml"
+ 1217  git push
+ 1218  cd ../../..
+ 1219  cd ../..
+ 1220  cd core/
+ 1221  git commit -m "Commented Log4j Plugin in dependency pom in core"
+ 1222  git commit -m "Commented Log4j Plugin in dependency pom in core" -f dependency-reduced-pom.xml 
+ 1223  git commit -m "Commented Log4j Plugin in dependency pom in core" -F dependency-reduced-pom.xml 
+ 1224  git commit -F dependency-reduced-pom.xml 
+ 1225  git push -F dependency-reduced-pom.xml
+ 1226  cd ..
+ 1227  mvn clean install -DskipTests
+ 1228  ../apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1229  ../apache-tomcat-8.0.22/bin/catalina.sh start
+ 1230  cd portal/src/main/webapp/
+ 1231  git add META-INF/
+ 1232  git commit -m "Add META-INF"
+ 1233  git add META-INF/
+ 1234  git commit -m "Add META-INF"
+ 1235  git push
+ 1236  git add META-INF/context.xml 
+ 1237  git add -f META-INF/context.xml 
+ 1238  git commit -m "Add META-INF"
+ 1239  git push
+ 1240  cd ../../..
+ 1241  cd ..
+ 1242  cd /tmp
+ 1243  ls -l
+ 1244  ls
+ 1245  rm Paper-JC.PDF 
+ 1246  ls -l
+ 1247  rm Paper-JC.PDF 
+ 1248  ls -l
+ 1249  cd Downloads/
+ 1250  python get-pip.py 
+ 1251  sudo python get-pip.py 
+ 1252  sudo pip install vcf
+ 1253  sudo pip install PyVcf
+ 1254  sudo pip install vcf_parser
+ 1255  cd Converted\ Files/
+ 1256  cd ..
+ 1257  cd CGIX_CLL_Summary_Data/
+ 1258  java -jar CGIXFileConvertorTool.jar -metaDataFile=/home/ashish/Downloads/Gilead_0123_Sample_list_for_NGS_new_copy.xlsx -summarySheetsFolder=/home/ashish/Downloads/CGIX_CLL_Summary_Data -d=cbioportal -u=cbio_user -p=somepassword
+ 1259  java -jar CGIXFileConvertorTool.jar -metaDataFile=/home/ashish/Downloads/Gilead_0123_Sample_list_for_NGS_new_copy.xlsx -summarySheetsFolder=/home/ashish/Downloads/CGIX_CLL_Summary_Data -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusCLL
+ 1260  java -jar CGIXFileConvertorTool-positive-variants.jar -metaDataFile=/home/ashish/Downloads/Gilead_0123_Sample_list_for_NGS_new_copy.xlsx -summarySheetsFolder=/home/ashish/Downloads/CGIX_CLL_Summary_Data -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusCLL
+ 1261  java -jar CGIXFileConvertorTool.jar -metaDataFile=/home/ashish/Downloads/Gilead_0123_Sample_list_for_NGS_new_copy.xlsx -summarySheetsFolder=/home/ashish/Downloads/CGIX_CLL_Summary_Data -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusCLL
+ 1262  cd ~/Documents/workspace-sts-3.6.4.RELEASE/CGIX-New/src/main/java/com/cgix/datafiles/
+ 1263  ls
+ 1264  git add Constants.java 
+ 1265  git commit -m "Added constants"
+ 1266  git push
+ 1267  vim /etc/hostname 
+ 1268  sudo vim /etc/hostname 
+ 1269  sudo vim /etc/hosts
+ 1270  sudo /etc/init.d/hostname
+ 1271  sudo service hostname restart
+ 1272  ssh ashish@cgi-crick
+ 1273  ssh ashish@cgi-cricl
+ 1274  ssh ashish@cgi-crick
+ 1275  ssh ashish@192.168.1.89
+ 1276  mysql --user=cbio_user --password=somepassword
+ 1277  cd Downloads/Converted\ Files/CGIX_13Jul/
+ 1278  java -jar SampleAssayImporter.jar -f=sample_assay_mapping.txt -d=cbioportal -u=cbio_user -p=somepassword
+ 1279  cd Positive\ Files/cbioportal/Clinical_2015_CGI_Rutherford/cll/
+ 1280  ls -l
+ 1281  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1282  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1283  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1284  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1285  cd ../../CT01GS_2015_CGI_Rutherford/cll/
+ 1286  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1287  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1288  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1289  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1290  cd ../../CT02GS_2015_CGI_Rutherford/cll/
+ 1291  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1292  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1293  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1294  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1295  cd /home/ashish/Documents/workspace-sts-3.6.4.RELEASE/CGIX-New/cbioportal/Clinical_2015_CGI_Rutherford/cll/
+ 1296  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1297  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1298  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1299  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1300  cd ../../CT01GS_2015_CGI_Rutherford/cll/
+ 1301  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1302  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1303  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1304  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1305  cd ../../CT02GS_2015_CGI_Rutherford/cll/
+ 1306  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1307  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1308  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1309  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1310  cd ../..
+ 1311  cd ..
+ 1312  java -jar SampleAssayImporter.jar -f=sample_assay_mapping.txt -d=cbioportal -u=cbio_user -p=somepassword
+ 1313  cd cbioportal/Clinical_2015_CGI_Rutherford/cll/
+ 1314  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1315  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1316  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1317  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1318  cd ../../CT01GS_2015_CGI_Rutherford/
+ 1319  cd cll/
+ 1320  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1321  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1322  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1323  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1324  cd ../../CT02GS_2015_CGI_Rutherford/cll/
+ 1325  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1326  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1327  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1328  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1329  cd /home/ashish/Downloads/ensembl-tools-release-80/scripts/variant_effect_predictor/
+ 1330  ls -l
+ 1331  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,LRT_score,FATHM_score,MutationTaster_score
+ 1332  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz
+ 1333  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,dbNSFP.gz.tbi
+ 1334  tabix -s 1 -b 2 -e 2 dbNSFP.gz
+ 1335  sudo apt-get install tabix
+ 1336  tabix -s 1 -b 2 -e 2 dbNSFP.gz
+ 1337  tabix -f -s 1 -b 2 -e 2 dbNSFP.gz
+ 1338  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,dbNSFP.gz.tbi
+ 1339  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz
+ 1340  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,LRT_score,FATHM_score
+ 1341  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore
+ 1342  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1343  cd /home/ashish/.vep/
+ 1344  ls -l
+ 1345  cd homo_sapiens
+ 1346  ls -l
+ 1347  cd 80_GRCh37/
+ 1348  ls -l
+ 1349  cd ../..
+ 1350  cd homo_sapiens
+ 1351  ls
+ 1352  rm -r 80_GRCh38/
+ 1353  cd ..
+ 1354  ls
+ 1355  cd homo_sapiens_refseq/
+ 1356  ls
+ 1357  cd ..
+ 1358  cd Downloads/ensembl-tools-release-80/scripts/variant_effect_predictor/
+ 1359  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1360  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1361  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf --port 3337 --vep -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1362  perl variant_effect_predictor.pl --cache -i 33345.vcf -o 33345.vcf.ann.vep.vcf --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1363  perl variant_effect_predictor.pl --cache -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann.vep.vcf --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1364  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann.vep.vcf --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1365  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann.vep.vcf --database --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1366  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.vcf --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1367  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.vcf --cache --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1368  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --database --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1369  cd ~/.vep/
+ 1370  ls
+ 1371  cd homo_sapiens
+ 1372  ls -l
+ 1373  cd 80_GRCh37/
+ 1374  ls
+ 1375  ls -l
+ 1376  cd..
+ 1377  cd ../..
+ 1378  ls -l
+ 1379  rm -r homo_sapiens_refseq/
+ 1380  ls -l
+ 1381  rm -r homo_sapiens
+ 1382  ls -l
+ 1383  tar xfz homo_sapiens_vep_81_GRCh37.tar.gz 
+ 1384  la -l
+ 1385  cd ~/Downloads/ensembl-tools-release-80/scripts/variant_effect_predictor/
+ 1386  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1387  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache --port 3307 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1388  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1389  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache --cache_version 81 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1390  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache --cache_version 81 --port 3307 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1391  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --show_cache_info --cache --cache_version 81 --port 3307 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1392  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --show_cache_info --cache --cache_version 81 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1393  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --show_cache_info --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1394  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann2.vep.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,SIFT_score,SIFT_converted_rankscore,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore
+ 1395  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,pos(1-coor),ref,alt,aaref,aaalt,rs_dbSNP141,hg18_pos(1-coor),hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,PROVEAN_pred,CADD_raw,CADD_raw_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1396  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg18_pos(1-coor),hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1397  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1398  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.vcf.ann1.vep.txt --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1399  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann1.txt --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1400  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann2.txt --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1401  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1402  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann.vcf --cache --cache_version 81 --port 3337 -v --convert vcf -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1403  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann.vcf --cache --cache_version 81 --port 3337 -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1404  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann.vcf --cache --cache_version 81 --port 3337 --vcf -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1405  sudo apt-get install vcf2csv
+ 1406  sudo apt-get install samtools
+ 1407  bcftools convert 
+ 1408  man bcftools
+ 1409  whereis samtools
+ 1410  cd /usr/bin/
+ 1411  ls -l
+ 1412  bcftools
+ 1413  bcftools convert
+ 1414  cd ~/Downloads/ensembl-tools-release-80/scripts/variant_effect_predictor/
+ 1415  bcftools convert -O v -o CLCBio_SU314.vcf CLCBio.txt
+ 1416  pwd
+ 1417  perl variant_effect_predictor.pl -i CLCBio_SU314.vcf -o CLCBio_SU314.ann.vcf --cache --cache_version 81 --port 3337 --vcf -v -plugin dbNSFP,dbNSFP.gz,ref,alt,aaref,aaalt,rs_dbSNP141,hg38_chr,hg38_pos,genename,Uniprot_acc,Uniprot_id,Uniprot_aapos,Interpro_domain,cds_strand,refcodon,SLR_test_statistic,codonpos,fold-degenerate,Ancestral_allele,Ensembl_geneid,Ensembl_transcriptid,aapos,aapos_SIFT,aapos_FATHMM,SIFT_score,SIFT_converted_rankscore,SIFT_pred,Polyphen2_HDIV_score,Polyphen2_HDIV_rankscore,Polyphen2_HDIV_pred,Polyphen2_HVAR_score,Polyphen2_HVAR_rankscore,Polyphen2_HVAR_pred,LRT_score,LRT_converted_rankscore,LRT_pred,MutationTaster_score,MutationTaster_converted_rankscore,MutationTaster_pred,MutationAssessor_score,MutationAssessor_rankscore,MutationAssessor_pred,FATHMM_score,FATHMM_rankscore,FATHMM_pred,MetaSVM_score,MetaSVM_rankscore,MetaSVM_pred,MetaLR_score,MetaLR_rankscore,MetaLR_pred,Reliability_index,VEST3_score,VEST3_rankscore,PROVEAN_score,PROVEAN_converted_rankscore,CADD_phred,GERP++_NR,GERP++_RS,GERP++_RS_rankscore,phyloP46way_primate,phyloP46way_primate_rankscore,phyloP46way_placental,phyloP46way_placental_rankscore,phyloP100way_vertebrate,phyloP100way_vertebrate_rankscore,phastCons46way_primate,phastCons46way_primate_rankscore,phastCons46way_placental,phastCons46way_placental_rankscore,phastCons100way_vertebrate,phastCons100way_vertebrate_rankscore,SiPhy_29way_pi,SiPhy_29way_logOdds,SiPhy_29way_logOdds_rankscore,LRT_Omega,UniSNP_ids,1000Gp1_AC,1000Gp1_AF,1000Gp1_AFR_AC,1000Gp1_AFR_AF,1000Gp1_EUR_AC,1000Gp1_EUR_AF,1000Gp1_AMR_AC,1000Gp1_AMR_AF,1000Gp1_ASN_AC,1000Gp1_ASN_AF,ESP6500_AA_AF,ESP6500_EA_AF,ARIC5606_AA_AC,ARIC5606_AA_AF,ARIC5606_EA_AC,ARIC5606_EA_AF,ExAC_AC,ExAC_AF,ExAC_Adj_AC,ExAC_Adj_AF,ExAC_AFR_AC,ExAC_AFR_AF,ExAC_AMR_AC,ExAC_AMR_AF,ExAC_EAS_AC,ExAC_EAS_AF,ExAC_FIN_AC,ExAC_FIN_AF,ExAC_NFE_AC,ExAC_NFE_AF,ExAC_SAS_AC,ExAC_SAS_AF,clinvar_rs,clinvar_clnsig,clinvar_trait,COSMIC_ID,COSMIC_CNT
+ 1418  java -jar /media/cgi-ngs/bioinfo/scripts/snpEff_Scripts/vcf-info-parser-new.jar vcfFile="CLCBio_SU314.ann.vcf" txtFile=CLC.txt "resultFileName=result1"
+ 1419  sudo java -jar /media/cgi-ngs/bioinfo/scripts/snpEff_Scripts/vcf-info-parser-new.jar vcfFile="CLCBio_SU314.ann.vcf" txtFile=CLC.txt "resultFileName=result1"
+ 1420  history | grep ssh
+ 1421  ssh ashish@NGSWs
+ 1422  ssh ashish@NGSWS
+ 1423  ssh ashish@192.168.1.64
+ 1424  cd ~/Downloads/cbioportal-stable
+ 1425  mvn clean install -DskipTests
+ 1426  ../apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1427  ../apache-tomcat-8.0.22/bin/catalina.sh start
+ 1428  ../apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1429  mvn clean install -DskipTests
+ 1430  ../apache-tomcat-8.0.22/bin/catalina.sh start
+ 1431  mvn clean install -DskipTests
+ 1432  ../apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1433  ../apache-tomcat-8.0.22/bin/catalina.sh start
+ 1434  cd Downloads/
+ 1435  sudo yum install adobe-release-x86_64-1.0-1.noarch.rpm 
+ 1436  sudo alien adobe-release-x86_64-1.0-1.noarch.rpm 
+ 1437  sudo dpkg -i adobe-release-x86-64_1.0-2_all.deb 
+ 1438  whereis adobe
+ 1439  find \ -f adobe
+ 1440  find \ -n  adobe
+ 1441  find \ -n adobe
+ 1442  find \ adobe
+ 1443  find \ -name adobe
+ 1444  find ~ -name adobe
+ 1445  find / -name adobe
+ 1446  vls -l
+ 1447  ls -l
+ 1448  vim 33339-1346_S8.vcf 
+ 1449  cd ..
+ 1450  cd Downloads/
+ 1451  cp homo_sapiens_vep_81_GRCh37.tar.gz ~/.vep/
+ 1452  tar xfz homo_sapiens_vep_81_GRCh37.tar.gz 
+ 1453  cd ~/.vep/
+ 1454  ls -l
+ 1455  cd homo_sapiens/
+ 1456  ls
+ 1457  history
+ 1458  history | grep ssh
+ 1459  ssh ashish@192.168.1.64
+ 1460  cd ~/Picard\ Tool/
+ 1461  cd ..
+ 1462  cd Picard-Tool/
+ 1463  git clone git@github.com:samtools/htsjdk.git
+ 1464  https://github.com/samtools/htsjdk.git
+ 1465  git clone https://github.com/samtools/htsjdk.git
+ 1466  java -jar picard-tools-1.136/picard.jar --help
+ 1467  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam O=result.txt
+ 1468  java -jar picard-tools-1.136/picard.jar BamIndexStats -H
+ 1469  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=ucsc.hg19.fasta
+ 1470  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=ucsc.hg19.fasta >stats.txt
+ 1471  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed
+ 1472  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed >stats.txt
+ 1473  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam >stats.txt
+ 1474  java -jar picard-tools-1.136/picard.jar PositionBasedDownsampleSam -h
+ 1475  cd ../Downloads/CGIX_CLL_Summary_Data/
+ 1476  history | grep CGIXFileConvertorTool-positive-variants.jar
+ 1477  grep CGIXFileConvertorTool-positive-variants.jar | history
+ 1478  history | grep java
+ 1479  cd ..
+ 1480  cd apache-tomcat-8.0.22/bin/
+ 1481  ./catalina.sh stop
+ 1482  ./catalina.sh start
+ 1483  cd ~/Picard-Tool/
+ 1484  ls
+ 1485  cd picard-tools-1.136/
+ 1486  cd ..
+ 1487  java -jar picard-tools-1.136/picard.jar BamIndexStats I=CGI41_S15.bam R=TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed >stats.txt
+ 1488  sudo apt-get search ant
+ 1489  sudo apt-get install ant
+ 1490  cd htsjdk/
+ 1491  ant htsjdk-jar
+ 1492  ant -lib lib/ant package-commands
+ 1493  cd src/
+ 1494  ant -lib lib/ant package-commands
+ 1495  ant -lib lib/ant picard
+ 1496  cd ../..
+ 1497  git clone https://github.com/broadinstitute/picard.git
+ 1498  cd picard/
+ 1499  ant -lib lib/ant package-commands
+ 1500  cd src/
+ 1501  ant -lib lib/ant package-commands
+ 1502  cd ..
+ 1503  ant -lib lib/ant package-commands
+ 1504  sudo apt-get install bwa
+ 1505  sudo apt-get install libc6
+ 1506  sudo apt-get install zlib1g
+ 1507  cd ..
+ 1508  ls
+ 1509  cd picard-tools-1.136/
+ 1510  ls
+ 1511  java -jar picard.jar 
+ 1512  sudo apt-get install lshw
+ 1513  sudo lshw | less
+ 1514  cd /media/cgix-ngs/bioinfo/ashish/
+ 1515  ls -l
+ 1516  cp BH11_ACTTGA_L001_R1_001\ \(paired\)\ Target\ Region\ Coverage\ Report.pdf ~/
+ 1517  cd Renal\ panel/
+ 1518  ls 
+ 1519  cd ..
+ 1520  cd ~/Picard-Tool/picard-tools-1.136/
+ 1521  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/
+ 1522  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=KK37_S2_Renal.txt
+ 1523  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=KK37_S2_Renal
+ 1524  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sam O=KK37_S2_Renal
+ 1525  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sam O=KK37_S2_Renal IGNORE={INVALID_MAPPING_QUALITY,INVALID_CIGAR}
+ 1526  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sam O=KK37_S2_Renal VALIDATION_STRINGENCY=SILENT
+ 1527  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=KK37_S2_Renal VALIDATION_STRINGENCY=SILENT
+ 1528  java -jar picard.jar CollectMultipleMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=KK37_S2_Renal_result VALIDATION_STRINGENCY=SILENT
+ 1529  ls
+ 1530  ls -l
+ 1531  java -jar picard.jar CollectAlignmentMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt
+ 1532  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt
+ 1533  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT
+ 1534  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta N=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT
+ 1535  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta N=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT ADAPTER_SEQUENCE=null
+ 1536  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta N=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT ADAPTER_SEQUENCE=[]
+ 1537  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta N=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT ADAPTER_SEQUENCE='null'
+ 1538  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT
+ 1539  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT ADAPTER_SEQUENCE='null'
+ 1540  java -jar picard.jar CollectAlignmentSummaryMetrics R=../ucsc.hg19.fasta I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Picard-alignment-metrics-output.txt VALIDATION_STRINGENCY=SILENT ADAPTER_SEQUENCE=null
+ 1541  java -jar picard.jar CalculateHsMetrics I=input.bam O=output.txt VALIDATION_STRINGENCY=SILENT
+ 1542  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1543  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1544  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1545  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1546  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1547  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1548  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1549  java -jar picard.jar CalculateHsMetrics K=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed 
+ 1550  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta
+ 1551  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt R=../ucsc.hg19.fasta
+ 1552  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.t-only.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt R=../ucsc.hg19.fasta
+ 1553  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta
+ 1554  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-chr1.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/Chr1-bait-event.txt TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta LEVEL=SAMPLE
+ 1555  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-level-sample.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta LEVEL=SAMPLE
+ 1556  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-level-readgroup.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta LEVEL=READ_GROUP
+ 1557  java -jar picard.jar CalculateHsMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/Hs-metrics-output-level.txt VALIDATION_STRINGENCY=SILENT BAIT_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed TARGET_INTERVALS=../KK37_S2_Renal/140701_HG19_RCCProV1_JM_EZ_capture_targets.bed R=../ucsc.hg19.fasta PER_TARGET_COVERAGE=../KK37_S2_Renal/hs-metrics-pertarget-coverage.txt
+ 1558  java -jar picard.jar
+ 1559  java -jar picard.jar CollectGcBiasMetrics
+ 1560  java -jar picard.jar CollectGcBiasMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/GC-Bias-output.txt CHART=../KK37_S2_Renal/GC-Chart.pdf S=../KK37_S2_Renal/GC-Summary.txt
+ 1561  java -jar picard.jar CollectGcBiasMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/GC-Bias-output.txt CHART=../KK37_S2_Renal/ S=../KK37_S2_Renal/GC-Summary.txt
+ 1562  java -jar picard.jar CollectGcBiasMetrics I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/GC-Bias-output.txt CHART=../KK37_S2_Renal/GC-Chart.pdf S=../KK37_S2_Renal/GC-Summary.txt
+ 1563  java -jar picard.jar MarkDuplicates
+ 1564  java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/MarkDuplicates-output.txt M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=false
+ 1565  java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/MarkDuplicates-output.txt M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=SILENT
+ 1566  java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/MarkDuplicates-output.bam M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=SILENT
+ 1567  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusCLL
+ 1568  java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/MarkDuplicates-output.bam O=../KK37_S2_Renal/MarkDuplicates-output-WOD.bam M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=true VALIDATION_STRINGENCY=SILENT
+ 1569  java -jar picard.jar MarkDuplicates I=../KK37_S2_Renal/KK37_S2_bwa.sorted.bam O=../KK37_S2_Renal/MarkDuplicates-output-WOD.bam M=../KK37_S2_Renal/MarkDuplicates-metrics-output.txt REMOVE_DUPLICATES=true VALIDATION_STRINGENCY=SILENT
+ 1570  java -version
+ 1571  whereis jdk
+ 1572  find / grep jdk
+ 1573  find /  jdk
+ 1574  find / 1.8
+ 1575  find / -d 1.8
+ 1576  find
+ 1577  find --help
+ 1578  java -version
+ 1579  cd ..
+ 1580  cd KK37_S2_Renal/
+ 1581  ls
+ 1582  awk '{print "+\t"$2}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1583  vim output.tsv 
+ 1584  vim 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed
+ 1585  awk '{print "+\t",$2}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1586  vim output.tsv 
+ 1587  vim 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed
+ 1588  man awk
+ 1589  awk '{FS=OFS="\t"; print '+', $2}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed >output.tsv
+ 1590  awk '{FS=OFS="\t"; print '+', $2}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed | od -c
+ 1591  awk '{FS="  "; OFS="    "; print '+',$2;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1592  awk '{FS="  "; OFS="    "; print '\t+',$2;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1593  awk '{FS="  "; OFS="    "; print '\t+' $2;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1594  vim output.tsv 
+ 1595  awk '{FS="  "; OFS="    "; print '\tplus' $0;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1596  vim output.tsv 
+ 1597  awk '{FS="  "; OFS="    "; print 'plus' $0;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1598  vim output.tsv 
+ 1599  awk '{print 'plus' $0;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1600  vim output.tsv 
+ 1601  awk '{print '\tplus' $2;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1602  vim output.tsv 
+ 1603  awk '{print $0,$1,$2,"\t+",$3;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1604  vim output.tsv 
+ 1605  awk '{FS="\t"; OFS=", "; print $0,$1,$2,"\t+",$3;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1606  vim output.tsv 
+ 1607  awk '{FS="\t"; OFS=""; print $0,$1,$2,"\t+",$3;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output.tsv
+ 1608  vim output.tsv 
+ 1609  cat 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed | awk '{print $0,$1,$2,"\t+",$3;}' > output.tsv
+ 1610  vim output.tsv 
+ 1611  cat 140701_HG19_RCCProV1_JM_EZ_capture_targets | tr "\t" "~" | cut -d"~" -f4
+ 1612  cat 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed | tr "\t" "~" | cut -d"~" -f4
+ 1613  cut -f1 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed
+ 1614  cut -f1,2,5 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed
+ 1615  cut -f1,2,4 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed
+ 1616  cut -f1,2,3 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed >three.txt
+ 1617  cut -f4 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed >fourth.txt
+ 1618  awk '{FS="\t"; OFS=", "; print "\t+";}' three.txt > output1.tsv
+ 1619  vim output1.tsv 
+ 1620  awk '{print "\t+";}' three.txt > output1.tsv
+ 1621  vim output1.tsv 
+ 1622  awk '{print $2,"\t+";}' three.txt > output1.tsv
+ 1623  vim output1.tsv 
+ 1624  awk '{print $0,$1,$2,"\t+";}' three.txt > output1.tsv
+ 1625  vim output1.tsv 
+ 1626  awk '{print $1,$2,"\t+";}' three.txt > output1.tsv
+ 1627  vim output1.tsv 
+ 1628  awk '{print $1,$2,$3,"\t+",$4;}' three.txt > output1.tsv
+ 1629  vim output1.tsv 
+ 1630  awk '{print $1,$2,$3,"\t+",$4;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output1.tsv
+ 1631  vim output1.tsv 
+ 1632  awk '{print $1,$2,$3,"+",$4;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output1.tsv
+ 1633  vim output1.tsv 
+ 1634  vim 140701_HG19_RCCProV1_JM_EZ_capture_targets_picard.bed 
+ 1635  man awk
+ 1636  awk '{FS="\t"; OFS="\t",print $1,$2,$3,"+",$4;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output1.tsv
+ 1637  awk '{FS="\t"; OFS="\t";print $1,$2,$3,"+",$4;}' 140701_HG19_RCCProV1_JM_EZ_capture_targets.bed > output1.tsv
+ 1638  vim output1.tsv 
+ 1639  ssh ashish@192.168.1.84
+ 1640  history | grrep ssh
+ 1641  history | grep ssh
+ 1642  ssh ashish@192.168.1.64
+ 1643  cd ~/Documents/workspace-sts-3.6.4.RELEASE/TestPythonProject/com/example/python/
+ 1644  ls -l
+ 1645  chmod 777 vcf2tsv_danielcook.py 
+ 1646  ./vcf2tsv_danielcook.py /home/ashish/Downloads/RM15.bwaln.sorted.baq.rdp.fb.targets.filter.vcf
+ 1647  cd ~/Downloads/c079483496c9fd2b16f0-b098421b7ab35f4cf7d6c2f78bdd90e667a414d4/
+ 1648  chmod
+ 1649  ls -l
+ 1650  chmod 777 vcf2tsv.py 
+ 1651  ./vcf2tsv.py /home/ashish/Downloads/RM15.bwaln.sorted.baq.rdp.fb.targets.filter.vcf
+ 1652  python vcf2tsv.py /home/ashish/Downloads/RM15.bwaln.sorted.baq.rdp.fb.targets.filter.vcf
+ 1653  ./vcf2tsv.py /home/ashish/Downloads/RM15.bwaln.sorted.baq.rdp.fb.targets.filter.vcf
+ 1654  ./vcf2tsv.py --h
+ 1655  ./vcf2tsv.py /home/ashish/Downloads/RM15.bwaln.sorted.baq.rdp.fb.targets.filter.annot.vcf
+ 1656  cd ..
+ 1657  mkdir vcf2tsv-code
+ 1658  cd vcf2tsv-code/
+ 1659  git clone https://github.com/ashishjain1988/vcflib.git
+ 1660  g++ --version
+ 1661  g++ 
+ 1662  g++ version 
+ 1663  g++ -version 
+ 1664  g++ -v 
+ 1665  mysql --user=root --passoword=root
+ 1666  mysql --user=root --password=root
+ 1667  cd Downloads/
+ 1668  cd NGS\ Scripts/
+ 1669  git init;
+ 1670  git add Fq2vcf.pindel2-Local-Copy.sh 
+ 1671  git add Fq2vcf.pindel2-For-cgi-crick.sh 
+ 1672  git add RunSiftTool.sh 
+ 1673  git add Sample-Commands.txt 
+ 1674  git commit -m "first commit"
+ 1675  git remote add origin https://github.com/ashishjain1988/NGS-Commands.git
+ 1676  git push -u origin master
+ 1677  ping google.com
+ 1678  ping facebook.com
+ 1679  ping google.com
+ 1680  ping 192.168.1.111
+ 1681  ping 192.168.1.84
+ 1682  man ping
+ 1683  git commit -m "updated files"
+ 1684  git add Fq2vcf.pindel2-For-cgi-crick.sh 
+ 1685  git commit -m "updated files"
+ 1686  git push
+ 1687  git add Fq2vcf.pindel2-For-cgi-crick.sh 
+ 1688  git commit -m "updated rm"
+ 1689  git add Fq2vcf.pindel2-For-cgi-crick.sh 
+ 1690  git commit -m "updated rm"
+ 1691  git push
+ 1692  cd ..
+ 1693  ls -lh SU*
+ 1694  df
+ 1695  df -h
+ 1696  ts
+ 1697  sudo apt-get install moreutils
+ 1698  man ts'
+ 1699  ;
+ 1700  man ts
+ 1701  cd NGS\ Scripts/
+ 1702  git add Sample-Commands.txt 
+ 1703  git commit -m "updated with awk command"
+ 1704  git push
+ 1705  commit
+ 1706  git commit
+ 1707  git diff
+ 1708  git add Fq2vcf.pindel2-For-cgi-crick.sh
+ 1709  git commit "updated tsv file name"
+ 1710  git commit -m "updated tsv file name"
+ 1711  git push
+ 1712  cd ../..
+ 1713  mkdir Myeloid-Files
+ 1714  cd Myeloid-Files/
+ 1715  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid\ test/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1716  samtools 
+ 1717  bcftools 
+ 1718  cd ..
+ 1719  cd Downloads/pindel/
+ 1720  git clone git://github.com/genome/pindel.git
+ 1721  cd pindel/
+ 1722  ./INSTALL /usr/
+ 1723  whereis samtools
+ 1724  ./INSTALL /usr/lib/samtools/
+ 1725  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid\ test/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1726  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1727  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1728  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1729  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1730  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1731  sudo java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1732  ls -l
+ 1733  cf cbioportal/
+ 1734  ./INSTALL /home/ashish/Downloads/samtools-1.2/htslib-1.2.1/
+ 1735  make install
+ 1736  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1737  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1738  ifconfig
+ 1739  sudo rpm -i --ignorearch ncui-7.3R1.i386.rpm
+ 1740  cd ../../..
+ 1741  cd Downloads/
+ 1742  chmod 777 junipernc 
+ 1743  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1744  history
+ 1745  sudo mount -t cifs //192.168.1.5/Rutherford /media/cgix-ngs/ -o username=ajain,domain=cgi,uid=ashish,sec=ntlm,file_mode=0755,dir_mode=0755
+ 1746  ./Downloads/cbioportal-repository/
+ 1747  cd Downloads/cbioportal-repository/
+ 1748  git clone https://github.com/ashishjain1988/cbioportal.git
+ 1749  cd cbioportal/core/src/main/resources/db/
+ 1750  ls -l
+ 1751  git commit -m "Corrected column names and realtionships"
+ 1752  git status
+ 1753  git add cbioportal-er-diagram.pdf 
+ 1754  git add cbioportal-er-diagram.png 
+ 1755  git commit -m "Corrected column names and realtionships"
+ 1756  git push
+ 1757  cd ../../../..
+ 1758  cd ../../../cbioportal-stable
+ 1759  git push
+ 1760  ./Downloads/apache-tomcat-8.0.22/bin/catalina.sh stop
+ 1761  mvn clean install -DskipTests
+ 1762  cd ..
+ 1763  cd Converted\ Files/
+ 1764  java -jar SampleAssayImporter.jar -f=sample_assay_mapping.txt -d=test_cgi_positive -u=cbio_user -p=somepassword
+ 1765  sudo apt-get install texlive
+ 1766  cd CGIX_13Jul/cbioportal/
+ 1767  ls
+ 1768  cd Clinical_2015_CGI_Rutherford/
+ 1769  ls -l
+ 1770  ls
+ 1771  cd cll/
+ 1772  ls -l
+ 1773  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1774  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1775  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1776  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1777  cd ../..
+ 1778  cd CT02GS_2015_CGI_Rutherford/cll/
+ 1779  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1780  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1781  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1782  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1783  cd ../../CT01GS_2015_CGI_Rutherford/cll/
+ 1784  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study --meta-filename meta_study.txt
+ 1785  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_clinical.txt --data-filename data_clinical.txt
+ 1786  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-study-data --meta-filename meta_mutations_extended.txt --data-filename data_mutations_extended.txt
+ 1787  $PORTAL_HOME/core/src/main/scripts/cbioportalImporter.py --jvm-args "-cp $CONNECTOR_JAR:$PORTAL_HOME/core/target/core-1.0-SNAPSHOT.jar" --command import-patient-list --meta-filename case_lists
+ 1788  cd ../../../../../apache-tomcat-8.0.22/conf/
+ 1789  vim context.xml
+ 1790  cd ../bin/
+ 1791  ./catalina.sh stop
+ 1792  ./catalina.sh start
+ 1793  ./catalina.sh stop
+ 1794  ./catalina.sh start
+ 1795  ./catalina.sh stop
+ 1796  ./catalina.sh start
+ 1797  ./catalina.sh stop
+ 1798  ./catalina.sh run
+ 1799  ./catalina.sh start
+ 1800  ./catalina.sh stop
+ 1801  ./catalina.sh start
+ 1802  ./catalina.sh stop
+ 1803  ./catalina.sh start
+ 1804  cd ../../
+ 1805  cd Venkat_Files/
+ 1806  pwd
+ 1807  java -jar Rename-Files.jar -folder=/home/ashish/Downloads/Venkat_Files
+ 1808  cd ~/Documents/workspace-sts-3.6.4.RELEASE/TestPythonProject/
+ 1809  git init
+ 1810  git commit -m "first commit"
+ 1811  git remote add origin https://github.com/ashishjain1988/PythonTest.git
+ 1812  git push -u origin master
+ 1813  git add com/
+ 1814  git add .project 
+ 1815  ls
+ 1816  ls -l
+ 1817  git add .pydevproject 
+ 1818  git push -u origin master
+ 1819  git commit -m "first commit"
+ 1820  git push -u origin master
+ 1821  cd ../../..
+ 1822  cd FreeBayes\ Tool/
+ 1823  cd ..
+ 1824  cd FreeBayes-Tool/
+ 1825  git clone --recursive git://github.com/ekg/freebayes.git
+ 1826  cd freebayes/
+ 1827  sudo make install
+ 1828  make
+ 1829  sudo apt-get install cmake
+ 1830  make
+ 1831  sudo make install
+ 1832  cd ..
+ 1833  cd Sample\ Bam\ files/
+ 1834  gunzip Daude_S1_L001_R1_001.fastq.gz 
+ 1835  freebayes -f Daude_S1_L001_R1_001.fastq Daude_S1.bam
+ 1836  freebayes -f Daude_S1_L001_R1_001.fastq Daude_S1.bam >result.vcf
+ 1837  cd ~/.vep/homo_sapiens/81_GRCh37/
+ 1838  ls 
+ 1839  cd ../..
+ 1840  cd ~/FreeBayes-Tool/
+ 1841  cd Sample\ Bam\ files/
+ 1842  freebayes --fasta-refernce human_g1k_v37.fasta Daude_S1.bam
+ 1843  freebayes --fasta-reference human_g1k_v37.fasta Daude_S1.bam >result.vcf
+ 1844  freebayes --fasta-reference human_g1k_v37.fasta CGI41-3_S10.bam  >result.vcf
+ 1845  freebayes --fasta-reference ucsc.hg19.fasta CGI41-3_S10.bam >result.vcf
+ 1846  freebayes --help
+ 1847  freebayes --help | less
+ 1848  gunzip --help
+ 1849  gzip --help
+ 1850  gzip CGI41-3_S10.vcf 
+ 1851  tabix -p CGI41-3_S10.vcf.gz 
+ 1852  tabix -p gff CGI41-3_S10.vcf.gz 
+ 1853  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 --pooled-continuous CGI41-3_S10.bam >result.vcf
+ 1854  freebayes -f ucsc.hg19.fasta -F 5 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI41-3_S10.bam >result.vcf
+ 1855  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI41-3_S10.bam >result.vcf
+ 1856  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI01_S1.bam >result.vcf
+ 1857  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI01_S1.bam -v result.vcf
+ 1858  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI01_S1.bam -v result.vcf
+ 1859  freebayes -f ucsc.hg19.fasta -F 5 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI41_S15.bam -v result.vcf
+ 1860  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI41_S15.bam -v result.vcf
+ 1861  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed --pooled-continuous CGI41_S15.bam -v result.vcf
+ 1862  bwa index ucsc.hg19.fasta 
+ 1863  cd BWA\ files/
+ 1864  bwa index ucsc.hg19.fasta 
+ 1865  pwd
+ 1866  cd ..
+ 1867  cd Sample-Bam-files/BWA-files/
+ 1868  cd ../..
+ 1869  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./Sample-Bam-files/BWA-files/CGI41_S15_L001_bwa.sorted.bam -v result.vcf
+ 1870  freebayes -f ./Sample-Bam-files/ucsc.hg19.fasta -F 0.01 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./Sample-Bam-files/BWA-files/CGI41_S15_L001_bwa.sorted.bam -v result.vcf
+ 1871  cd Sample-Bam-files/
+ 1872  freebayes -f ucsc.hg19.fasta -F 0.01 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./BWA-files/CGI41_S15_L001_bwa.sorted.bam -v result.vcf
+ 1873  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./BWA-files/CGI41_S15_L001_bwa.sorted.bam -v result.vcf
+ 1874  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed CGI41_S15.bam -v result_CGI_bam.vcf
+ 1875  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -I -X -u --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed CGI41_S15.bam -v result_CGI_bam.vcf
+ 1876  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed CGI41_S15.bam -v result_CGI_bam.vcf
+ 1877  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -I -X -u --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./BWA-files/CGI41_S15_L001_bwa.sorted.bam -v result.vcf
+ 1878  ls 
+ 1879  cd BWA-files/
+ 1880  ls
+ 1881  cd ..
+ 1882  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -I -X -u --pooled-continuous -t TruSeq_CAT_CLL_Manifest_TC0048996-BED.bed ./BWA-files/CGI31_S4_bwa.sorted.bam -v result_CGI31.vcf
+ 1883  freebayes -f ucsc.hg19.fasta -F 0.05 -C 1 -I -X -u --pooled-continuous -t /media/cgix-ngs/bioinfo/raghav/Central_Files/myeloid_coordinates.bed ./BWA-files/CGI31_S4_bwa.sorted.bam -v result_CGI31.vcf
+ 1884  cd ..
+ 1885  cd FreeBayes-Tool/Sample-Bam-files/
+ 1886  freebayes -f ucsc.hg19.fasta -F 0.02 -C 1 --pooled-continuous -t /media/cgix-ngs/bioinfo/raghav/Central_Files/myeloid_coordinates.bed ./BWA-files/CGI31_S4_bwa.sorted.bam -v result_CGI31.vcf
+ 1887  pip numpy
+ 1888  pip help
+ 1889  pip install numpy
+ 1890  sudo pip install numpy
+ 1891  sudo pip install ipython
+ 1892  sudo pip uninstall ipython
+ 1893  sudo pip install ipython
+ 1894  ipyhton
+ 1895  ipyhton start
+ 1896  ipyhton notebook
+ 1897  sudo pip uninstall ipython
+ 1898  sudo pip uninstall ipython[notebook]
+ 1899  sudo pip uninstall ipython
+ 1900  sudo pip install ipython[notebook]
+ 1901  ipython notebook
+ 1902  whereis samtools
+ 1903  cd /usr/lib/samtools/
+ 1904  ls -l
+ 1905  cd ~/Downloads/samtools-1.2/
+ 1906  cd htslib-1.2.1/
+ 1907  make
+ 1908  make install
+ 1909  cd ..
+ 1910  sudo make-install
+ 1911  sudo make install
+ 1912  cd /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/
+ 1913  ls -l
+ 1914  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1915  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1916  Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1917  history | grep mount
+ 1918  sudo mount -t cifs //192.168.1.5/Rutherford /media/cgix-ngs/ -o username=ajain,domain=cgi,uid=ashish,sec=ntlm,file_mode=0755,dir_mode=0755
+ 1919  history | java
+ 1920  history | grep "java -jar" 
+ 1921  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Myeloid_patient_list.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/myeloid-test/Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusMyeloid
+ 1922  java -jar /media/cgix-ngs/bioinfo/ashish/CGI\ Importer\ Jars/CGIXFileConvertorTool.jar -metaDataFile=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Gilead_0123_Sample_list_for_NGS_Meta_data.xlsx -summarySheetsFolder=/media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/ -d=cbioportal -u=cbio_user -p=somepassword -assay=FocusCLL
+ 1923  pwd
+ 1924  ssh ashish@192.168.1.89
+ 1925  ssh 192.168.1.89
+ 1926  ssh ashish@192.168.1.89
+ 1927  Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1928  history | grep "java -jar"
+ 1929  history | grep "mount"
+ 1930  /media/cgix-ngs/bioinfo/ashish/Run-Summary-Sheets/Run-Summary-Sheets/
+ 1931  sudo mount -t cifs //192.168.1.5/Rutherford /media/cgix-ngs/ -o username=ajain,domain=cgi,uid=ashish,sec=ntlm,file_mode=0755,dir_mode=0755
+ 1932  scp ashish@192.168.1.64:/home/thodima/ftp2.genewiz.com/samples.txt ./
+ 1933  scp ashish@192.168.1.89:/home/ashish/samples_file* ./
+ 1934  scp ashish@192.168.1.89:/home/ashish/sample_file_run_BH_4_Aug.txt ./
+ 1935  scp ./sample_file_run_BH_4_Aug.txt  ashish@192.168.1.89:/home/ashish/sample_file_run_BH_4_Aug.txt
+ 1936  Downloads/apache-tomcat-8.0.22/bin/catalina.sh start
+ 1937  ssh ashish@cgi-crick
+ 1938  ssh ashish@192.168.1.89
+ 1939  history |grep mount
+ 1940  sudo mount -t cifs //192.168.1.5/Rutherford /media/cgix-ngs/ -o username=ajain,domain=cgi,uid=ashish,sec=ntlm,file_mode=0755,dir_mode=0755
+ 1941  ssh ashish@192.168.1.89
+ 1942  cd Magneto
+ 1943  mkdir Magneto
+ 1944  cd Magneto/
+ 1945  curl -sS https://getcomposer.org/installer | php
+ 1946  mv composer.phar /usr/local/bin/composer
+ 1947  sudo mv composer.phar /usr/local/bin/composer
+ 1948  ls
+ 1949  mv -r magento2-develop/ /var/www/magneto2
+ 1950  mv magento2-develop/ /var/www/magneto2
+ 1951  sudo mv magento2-develop/ /var/www/magneto2
+ 1952  cd /var/www/
+ 1953  ls -l
+ 1954  cd magneto2/
+ 1955  composer install
+ 1956  php
+ 1957  cd /etc/php5/mods-available/
+ 1958  ls
+ 1959  php --version
+ 1960  cd /var/www/html/magento2 && composer install
+ 1961  mv /var/www/magneto2/ /var/www/html/
+ 1962  sudo mv /var/www/magneto2/ /var/www/html/
+ 1963  cd /var/www/html/magento2 && composer install
+ 1964  cd /var/www/html/
+ 1965  ls -l
+ 1966  cd /var/www/html/magento2 && composer install
+ 1967  cd /var/www/html/magento2
+ 1968  cd magento2
+ 1969  cd magneto2/
+ 1970  composer install
+ 1971  php --version
+ 1972  sudo apt-get update
+ 1973  sudo apt-get install php5-curl
+ 1974  composer install
+ 1975  php composer.phar install
+ 1976  sudo apt-get install php5-mcrypt
+ 1977  php composer.phar install
+ 1978  composer install
+ 1979  sudo apt-get install php5-gd
+ 1980  sudo apt-get install php5-intl
+ 1981  sudo apt-get install php5-xsl
+ 1982  composer install
+ 1983  sudo apt-get install php5-mcrypt
+ 1984  composer install
+ 1985  sudo apt-get update
+ 1986  composer install
+ 1987  cd /etc/php5/mods-available/
+ 1988  ls
+ 1989  cd /etc/php5/cli/conf.d/
+ 1990  ls
+ 1991  sudo php5enmod mcrypt
+ 1992  cd /var/www/html/magneto2/
+ 1993  composer install
+ 1994  history >~/history_magento.txt
