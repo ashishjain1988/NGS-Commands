@@ -1,0 +1,27 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT.patient_22_IDC.tophat
+#PBS  -e BATCH_ERRORS.patient_22_IDC.tophat
+ 
+#PBS -lnodes=4:ppn=16:compute,walltime=16:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load TopHat
+module load bowtie
+setenv genomePath "/ptmp/jain/Final_Project/Raw_BC_Samples/Homo_sapiens/UCSC/hg19/"
+setenv folderPath "/ptmp/jain/Final_Project/Raw_BC_Samples/*.fastq"
+
+for f in $folderPath
+do
+    if [[ -f $f ]]; then
+        fileName=$(basename $f)
+	sampleName=(${fileName//./ })
+	echo tophat -p 16 -G $genomePath/Annotation/Genes/genes.gtf -o tophat_output/$sampleName  $genomePath/Sequence/Bowtie2Index/genome $f &
+	tophat -p 16 -G $genomePath/Annotation/Genes/genes.gtf -o tophat_output/$sampleName  $genomePath/Sequence/Bowtie2Index/genome $f &
+    fi
+done
+wait
+
+

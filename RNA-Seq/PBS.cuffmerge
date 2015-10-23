@@ -1,0 +1,25 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT.sra
+#PBS  -e BATCH_ERRORS.sra
+ 
+#PBS -lnodes=1:ppn=16:compute,walltime=4:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load cufflinks2
+
+setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*"
+setenv filespath "/ptmp/jain/Final_Project/Raw_BC_Samples/Homo_sapiens/UCSC/hg19/"
+
+transcriptsFilesVar=""
+for f in $folderPath
+do
+    if [[ -d $f ]]; then
+	file="$f/transcripts.gtf\n"
+	transcriptsFilesVar+=$file
+    fi
+done
+echo $transcriptsFilesVar >assemblies.txt
+cuffmerge -g $genomePath/Annotation/Genes/gene.gtf -s $genomePath/Sequence/Bowtie2Index/genome.fa -p 8 assemblies.txt
