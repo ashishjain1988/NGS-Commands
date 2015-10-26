@@ -1,0 +1,20 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT.trimmometric
+#PBS  -e BATCH_ERRORS.trimmometric
+ 
+#PBS -lnodes=4:ppn=8:compute,walltime=48:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load java/jdk1.8.0_20
+
+#setenv jarPath "/ptmp/jain/Trimmomatic-0.33"
+#setenv fastqPath "/ptmp/jain/Final_Project/Raw_BC_Samples"
+
+./trimmometric.sh
+wait
+#java -jar $jarPath/trimmomatic-0.33.jar SE -phred33 $fastqPath/patient_24_IDC_single.fastq $fastqPath/patient_24_IDC_trimmed.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
+#java -jar $jarPath/trimmomatic-0.33.jar SE -phred33 $fastqPath/patient_22_IDC.fastq $fastqPath/patient_22_IDC_trimmed.fastq ILLUMINACLIP:/ptmp/jain/Trimmomatic-0.33/adapters/TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36

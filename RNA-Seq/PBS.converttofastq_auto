@@ -3,19 +3,23 @@
 #PBS  -o BATCH_OUTPUT.sra
 #PBS  -e BATCH_ERRORS.sra
  
-#PBS -lnodes=1:ppn=16:compute,walltime=4:00:00
+#PBS -lnodes=4:ppn=16:compute,walltime=8:00:00
  
 cd $PBS_O_WORKDIR
 
 module use /shared/software/bcb660/modules
 module load sra
-setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*.sra"
-setenv outfolder "./"
-
-for f in $folderPath
-do
-    if [[ -f $f ]]; then
-	fastq-dump -O $outfolder $f &
-    fi
-done
+#setenv folderPath "/ptmp/jain/Final_Project/Raw_BC_Samples/*.sra"
+#setenv outfolder "/ptmp/jain/Final_Project/Raw_BC_Samples/"
+./fastqdump.sh
 wait
+#for f in $folderPath
+#do
+   # if [[ -f $f ]]; then
+	#fileName=$(basename $f)
+        #sampleName=(${fileName//./ })
+	#fastQFile=${sampleName[0]}""
+	#fastq-dump -O $outfolder $f &
+   # fi
+#done
+#wait

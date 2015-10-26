@@ -1,0 +1,17 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT
+#PBS  -e BATCH_ERRORS
+ 
+#PBS -lnodes=1:ppn=1:compute,walltime=4:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load FastQC
+module load java/jdk1.8.0_20
+
+fastqc -f fastq ./Raw_BC_Samples/patient_21_IDC.fastq
+fastqc -f fastq ./Raw_BC_Samples/patient_21_normal.fastq
+
+

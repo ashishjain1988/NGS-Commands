@@ -10,13 +10,6 @@ cd $PBS_O_WORKDIR
 module use /shared/software/bcb660/modules
 module load cufflinks2
 
-setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*"
-
-for f in $folderPath
-do
-    if [[ -d $f ]]; then
-	fileName=$(basename $f)
-        cufflinks -p 8 -o ./cufflink_output/$fileName $f/accepted_hits.bam &
-    fi
-done
+#setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*"
+./cufflinks.sh
 wait
