@@ -1,0 +1,16 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT.cuffmerge
+#PBS  -e BATCH_ERRORS.cuffmerge
+ 
+#PBS -lnodes=4:ppn=16:compute,walltime=24:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load cufflinks2
+
+setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*"
+setenv genomePath "/ptmp/jain/Final_Project/Raw_BC_Samples/Homo_sapiens/UCSC/hg19/"
+
+cuffcompare -r $genomePath/Annotation/Genes/genes.gtf  ./merged_asm/merged.gtf

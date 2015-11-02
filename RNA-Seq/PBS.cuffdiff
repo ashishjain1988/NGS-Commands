@@ -1,0 +1,16 @@
+#!/bin/tcsh
+
+#PBS  -o BATCH_OUTPUT.cuffdiff
+#PBS  -e BATCH_ERRORS.cuffdiff
+ 
+#PBS -lnodes=4:ppn=16:compute,walltime=24:00:00
+ 
+cd $PBS_O_WORKDIR
+
+module use /shared/software/bcb660/modules
+module load cufflinks2
+
+setenv folderPath "/ptmp/jain/Final_Project/Tophat_Output_For_Cufflinks"
+setenv genomePath "/ptmp/jain/Final_Project/Raw_BC_Samples/Homo_sapiens/UCSC/hg19/"
+
+cuffdiff -o ./cuffdiff/ -b $genomePath/Sequence/Bowtie2Index/genome.fa -p 8 -L Normal,IDC -u ./merged_asm/merged.gtf $folderPath/patient_13_normal_trimmed/accepted_hits.bam,$folderPath/patient_15_normal_trimmed/accepted_hits.bam,$folderPath/patient_19_normal_trimmed/accepted_hits.bam,$folderPath/patient_21_normal_trimmed/accepted_hits.bam,$folderPath/patient_22_normal_trimmed/accepted_hits.bam $folderPath/patient_13_IDC_trimmed/accepted_hits.bam,$folderPath/patient_15_IDC_trimmed/accepted_hits.bam,$folderPath/patient_19_IDC_trimmed/accepted_hits.bam,$folderPath/patient_21_IDC_trimmed/accepted_hits.bam,$folderPath/patient_22_IDC_trimmed/accepted_hits.bam
