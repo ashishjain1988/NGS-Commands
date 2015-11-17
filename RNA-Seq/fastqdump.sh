@@ -12,11 +12,11 @@ do
 	fileName=$(basename $f)
         #echo $fileName
         file=(${fileName//./ }) #$(awk -F'.' '{print $1;}' $fileName)
-        if [ ${file[1]} = 'sra' ]
-        then
+        #if [ ${file[1]} = 'sra' ]
+        #then
 	    echo $f
 	    fastq-dump -O $outfolder $f &
-	fi
+	#fi
     fi
 done
 wait
