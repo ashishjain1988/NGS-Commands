@@ -9,8 +9,8 @@ do
     if [[ -f $f ]]; then
         fileName=$(basename $f)
         sampleName=(${fileName//./ })
-        echo tophat -p 16 -G $genomePath/Annotation/Genes/genes.gtf -o $output/${sampleName[0]}  $genomePath/Sequence/Bowtie2Index/genome $f &
-        tophat -p 16 -G $genomePath/Annotation/Genes/genes.gtf -o $output/${sampleName[0]}  $genomePath/Sequence/Bowtie2Index/genome $f &
+        echo tophat -p 12 -G $genomePath/Annotation/Genes/genes.gtf -o $output/${sampleName[0]}  $genomePath/Sequence/Bowtie2Index/genome $f &
+        tophat -p 12 -G $genomePath/Annotation/Genes/genes.gtf -o $output/${sampleName[0]}  $genomePath/Sequence/Bowtie2Index/genome $f &
     fi
 done
 wait
