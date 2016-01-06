@@ -1,15 +1,15 @@
 #!/bin/tcsh
 
-#PBS  -o BATCH_OUTPUT.patient_22_IDC.tophat
-#PBS  -e BATCH_ERRORS.patient_22_IDC.tophat
+#PBS  -o BATCH_OUTPUT.tophat
+#PBS  -e BATCH_ERRORS.tophat
  
 #PBS -lnodes=8:ppn=16:compute,walltime=48:00:00
  
 cd $PBS_O_WORKDIR
 
-module use /shared/software/bcb660/modules
-module load TopHat
-module load bowtie
+module use /shared/modulefiles/LAS
+module load tophat/2.1.0
+module load bowtie/2.2.6
 #setenv genomePath "/ptmp/jain/Final_Project/Raw_BC_Samples/Homo_sapiens/UCSC/hg19/"
 #setenv folderPath "/ptmp/jain/Final_Project/Raw_BC_Samples/*.fastq"
 ./tophat.sh
