@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#This file takes accession number list as input
 folderPath=/work/LAS/jain/sra/SRR13634*.sra
 outfolder=/work/LAS/Wurtele_Lab/Yeast/Fastq_Files1/
 filePath=/work/LAS/Wurtele_Lab/Yeast/ribosomal_SRR_Accessions.txt
