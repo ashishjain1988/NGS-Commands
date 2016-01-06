@@ -7,8 +7,8 @@
  
 cd $PBS_O_WORKDIR
 
-module use /shared/software/bcb660/modules
-module load cufflinks2
+module use /shared/modulefiles/LAS
+module load cufflinks/2.2.1
 
 #setenv folderPath "/ptmp/jain/Final_Project/tophat_output/*"
 ./cufflinks.sh
