@@ -1,6 +1,6 @@
 #!/bin/bash
 #This file takes accession number list as input
-folderPath=/work/LAS/jain/sra/SRR13634*.sra
+#folderPath=/work/LAS/jain/sra/SRR13634*.sra
 outfolder=/work/LAS/Wurtele_Lab/Yeast/Fastq_Files1/
 filePath=/work/LAS/Wurtele_Lab/Yeast/ribosomal_SRR_Accessions.txt
 toolPath=/work/LAS/Wurtele_Lab/sratoolkit.2.5.4-1-ubuntu64/bin
