@@ -11,7 +11,10 @@ module use /shared/software/bcb660/modules
 module load FastQC
 module load java/jdk1.8.0_20
 
-fastqc -f fastq ./Raw_BC_Samples/patient_21_IDC.fastq
-fastqc -f fastq ./Raw_BC_Samples/patient_21_normal.fastq
+#fastqc -f fastq ./Raw_BC_Samples/patient_21_IDC.fastq
+#fastqc -f fastq ./Raw_BC_Samples/patient_21_normal.fastq
+./fastqc.sh
+
+wait
 
 
