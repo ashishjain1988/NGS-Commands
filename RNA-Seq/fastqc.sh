@@ -15,7 +15,7 @@ do
         #if [ ${file[1]} == 'sra' ]
         #then
             echo $f
-            exec="/home/jain/FastQC/fastqc -o $out -f fastq $f &"
+            exec="fastqc -o $out -f fastq $f &"
             echo $exec
             eval $exec
         #fi
